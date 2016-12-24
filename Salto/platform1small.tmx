@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="20" tileheight="20" nextobjectid="309">
+ <tileset firstgid="1" name="prova" tilewidth="20" tileheight="20" tilecount="49">
+  <image source="tiles/tiles-G-small.png" width="140" height="140"/>
+ </tileset>
+ <layer name="background" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztl+sKwjAMhQc675s6VPb+T2qEFWZplrRN3Ybng/MnSU3ImrZWFQAAAAAAAAAAAAAA4B94kPq5iwBgIfjzcCG1TNxppJgZwsyBtcLNQyiuGWlqjXbmAHC487fkOSrlKFVD6TvIX5dyh+WQc3eCb7g9eCNdSXdlfKx9KofWn4r1HRSatyag1luT20fp2znl9i8md0psaI65M8ZK2r5ze/BJOpNeyvhY+1QOrX8uLN5jFn2Uvp1Tbv9icqfEhubY91lL23duD5a2Sz6Nfy4s/p9Y9FGK9ecj5kzuA78Xkzunzj3p6PmsdSDtAvnG9mqwd4O9+qFd8mn8a8aij1Js5/m5d5/0FkzJnVPnh5q0KaitV0u9MLvk0/jXjEUfpVhuL1jUWrLON0vQGMM=
+  </data>
+ </layer>
+ <layer name="stuff" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1jkKACAMBED1F/7/o7YWoljFYwbSBzYsSQkAAAAAAADuUaIXIIzs12r0Aof56WZkz67ZzeRuINKox3/qdpgZ9bh/AIBXNJc6AIs=
+  </data>
+ </layer>
+ <objectgroup name="walls">
+  <object id="248" x="8100" y="660" width="180" height="180"/>
+  <object id="249" x="8460" y="660" width="180" height="180"/>
+  <object id="250" x="8700" y="600" width="300" height="60"/>
+  <object id="251" x="9120" y="480" width="300" height="60"/>
+  <object id="252" x="9420" y="780" width="780" height="60"/>
+  <object id="253" x="10320" y="720" width="180" height="120"/>
+  <object id="254" x="10620" y="720" width="180" height="120"/>
+  <object id="255" x="10980" y="660" width="180" height="180"/>
+  <object id="256" x="11280" y="720" width="180" height="120"/>
+  <object id="257" x="11640" y="720" width="300" height="120"/>
+  <object id="265" x="20" y="240" width="500" height="20"/>
+  <object id="273" x="580" y="240" width="60" height="20"/>
+  <object id="276" x="700" y="220" width="60" height="20"/>
+  <object id="277" x="820" y="200" width="60" height="20"/>
+  <object id="278" x="940" y="220" width="60" height="20"/>
+  <object id="279" x="1060" y="220" width="60" height="20"/>
+  <object id="280" x="1180" y="220" width="60" height="20"/>
+  <object id="281" x="1320" y="200" width="60" height="20"/>
+  <object id="282" x="1480" y="200" width="60" height="20"/>
+  <object id="283" x="1580" y="160" width="40" height="20"/>
+  <object id="284" x="1660" y="140" width="40" height="20"/>
+  <object id="285" x="1780" y="160" width="100" height="20"/>
+  <object id="286" x="1920" y="200" width="40" height="20"/>
+  <object id="287" x="2000" y="180" width="40" height="20"/>
+  <object id="288" x="2080" y="160" width="40" height="20"/>
+  <object id="289" x="2120" y="200" width="100" height="20"/>
+  <object id="290" x="2240" y="240" width="40" height="20"/>
+  <object id="291" x="2320" y="220" width="40" height="20"/>
+  <object id="292" x="2400" y="200" width="140" height="20"/>
+  <object id="293" x="2580" y="220" width="60" height="20"/>
+  <object id="294" x="2700" y="220" width="60" height="20"/>
+  <object id="295" x="2820" y="220" width="60" height="20"/>
+  <object id="296" x="2920" y="220" width="60" height="20"/>
+  <object id="297" x="3040" y="200" width="100" height="20"/>
+  <object id="298" x="3160" y="260" width="240" height="20"/>
+  <object id="299" x="3440" y="220" width="60" height="20"/>
+  <object id="300" x="3540" y="220" width="60" height="20"/>
+  <object id="301" x="3660" y="220" width="60" height="20"/>
+  <object id="302" x="3760" y="220" width="60" height="20"/>
+  <object id="303" x="3880" y="220" width="100" height="20"/>
+ </objectgroup>
+ <objectgroup name="spikes">
+  <object id="304" x="3760" y="180" width="20" height="40"/>
+  <object id="305" x="3260" y="220" width="20" height="40"/>
+  <object id="306" x="3160" y="220" width="20" height="40"/>
+  <object id="307" x="2400" y="160" width="20" height="40"/>
+  <object id="308" x="940" y="180" width="20" height="40"/>
+ </objectgroup>
+ <objectgroup name="triggers">
+  <object id="274" x="20" y="300">
+   <polyline points="0,0 3980,0"/>
+  </object>
+  <object id="275" name="completed" x="3940" y="200">
+   <polyline points="0,0 0,-80"/>
+  </object>
+ </objectgroup>
+</map>

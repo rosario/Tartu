@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="60" tileheight="60" nextobjectid="406">
+ <tileset firstgid="1" name="prova" tilewidth="60" tileheight="60" tilecount="49">
+  <image source="tiles/tiles-E.png" width="420" height="420"/>
+ </tileset>
+ <layer name="background" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztmFsLwyAMhYXdu/vYxl72sP//J6cPgrjqGhMxlvPBgWF7MhOjQo1J8w5+fzLvAQAAAAAAAAAAAAAA+uFuNUR6NZ1RHVyec8wLyBL3ycHqGOnUYF61cXnOMS/N9Hgmae+Tsfvsn1JrUHt9qPGnvC+Zf2tyvdbj3tHAxepM1DURq/ZZQI0/5X3J/DWTqkXNfSN19nDjUP2h92F1I+pJKZJyuPlr6YFSSu+c1LNwXOrs4cah+kNvi/0xMP2ScPPX0gM1yO2d1LNwXKq3uHGofo7X+0vOOy2Suj83VjurfUax141trdbBHKTiaMLnRK1tqjYlcUr93msY/z32Ha4X+fONW3vHympB1NL8IhVHE1pqQ/VzvD2sCwVO/l9a/CLl
+  </data>
+ </layer>
+ <layer name="stuff" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1cEKwjAQhOHWg4IeqihY3/9FG6GHZdiY1Ngmxf+DOXRLlpwyXQcAAAAAAAAA7XmEjLUvATTmMOcacjPfwC+UvLvvs2fJKP+X7P7mLq8595Cn+f5Xp5Becqx6o/3y3l1N6uwgsbvs7tQ96AC0xnt3NamzF4ndZXen7rFVB8Q66tNcO9LrypL9S+bAGmIdlTPXjvS6smR/zhxYU6yjcubakV5XluzPmQMAUMsEfWEMAw==
+  </data>
+ </layer>
+ <objectgroup name="walls">
+  <object id="125" x="60" y="720" width="840" height="120"/>
+  <object id="295" x="1140" y="720" width="840" height="120"/>
+  <object id="297" x="2160" y="540" width="120" height="60"/>
+  <object id="300" x="2580" y="600" width="120" height="60"/>
+  <object id="303" x="2940" y="660" width="120" height="60"/>
+  <object id="305" x="3360" y="720" width="120" height="60"/>
+  <object id="306" x="3780" y="720" width="120" height="60"/>
+  <object id="307" x="4140" y="720" width="120" height="60"/>
+  <object id="308" x="4320" y="660" width="840" height="180"/>
+  <object id="309" x="4620" y="540" width="120" height="60"/>
+  <object id="310" x="4860" y="480" width="120" height="60"/>
+  <object id="311" x="5100" y="420" width="360" height="60"/>
+  <object id="313" x="5400" y="660" width="840" height="180"/>
+  <object id="316" x="6000" y="540" width="120" height="60"/>
+  <object id="317" x="6360" y="660" width="780" height="180"/>
+  <object id="331" x="7260" y="540" width="840" height="300"/>
+  <object id="332" x="8100" y="780" width="2880" height="60"/>
+  <object id="334" x="8220" y="660" width="120" height="60"/>
+  <object id="335" x="8580" y="660" width="120" height="60"/>
+  <object id="338" x="9660" y="660" width="120" height="60"/>
+  <object id="339" x="10020" y="660" width="120" height="60"/>
+  <object id="340" x="10380" y="660" width="120" height="60"/>
+  <object id="341" x="10740" y="660" width="120" height="60"/>
+  <object id="344" x="10560" y="540" width="120" height="60"/>
+  <object id="347" x="9840" y="540" width="120" height="60"/>
+  <object id="352" x="8580" y="420" width="120" height="60"/>
+  <object id="353" x="8400" y="540" width="120" height="60"/>
+  <object id="354" x="6720" y="540" width="120" height="60"/>
+  <object id="355" x="7620" y="420" width="120" height="60"/>
+  <object id="398" x="8940" y="660" width="480" height="60"/>
+  <object id="400" x="5520" y="540" width="360" height="60"/>
+  <object id="402" x="11100" y="540" width="840" height="300"/>
+ </objectgroup>
+ <objectgroup name="spikes">
+  <object id="318" x="4560" y="480" width="60" height="120"/>
+  <object id="319" x="4740" y="480" width="60" height="120"/>
+  <object id="320" x="4980" y="480" width="60" height="120"/>
+  <object id="323" x="5040" y="480" width="60" height="120"/>
+  <object id="324" x="5460" y="480" width="60" height="120"/>
+  <object id="327" x="5880" y="480" width="60" height="120"/>
+  <object id="328" x="5940" y="480" width="60" height="120"/>
+  <object id="329" x="6120" y="480" width="60" height="120"/>
+  <object id="357" x="6600" y="480" width="60" height="120"/>
+  <object id="358" x="6660" y="480" width="60" height="120"/>
+  <object id="359" x="6840" y="480" width="60" height="120"/>
+  <object id="360" x="6900" y="480" width="60" height="120"/>
+  <object id="361" x="7500" y="360" width="60" height="120"/>
+  <object id="362" x="7560" y="360" width="60" height="120"/>
+  <object id="363" x="7740" y="360" width="60" height="120"/>
+  <object id="364" x="7800" y="360" width="60" height="120"/>
+  <object id="365" x="8100" y="660" width="60" height="60"/>
+  <object id="366" x="8160" y="660" width="60" height="60"/>
+  <object id="367" x="8340" y="660" width="60" height="60"/>
+  <object id="368" x="8400" y="660" width="60" height="60"/>
+  <object id="369" x="8460" y="660" width="60" height="60"/>
+  <object id="371" x="8520" y="660" width="60" height="60"/>
+  <object id="372" x="8700" y="660" width="60" height="60"/>
+  <object id="373" x="8760" y="600" width="60" height="120"/>
+  <object id="374" x="8820" y="600" width="60" height="120"/>
+  <object id="375" x="8880" y="600" width="60" height="120"/>
+  <object id="380" x="9420" y="600" width="60" height="120"/>
+  <object id="381" x="9480" y="600" width="60" height="60"/>
+  <object id="382" x="9540" y="600" width="60" height="120"/>
+  <object id="383" x="9600" y="660" width="60" height="60"/>
+  <object id="384" x="9780" y="600" width="60" height="120"/>
+  <object id="385" x="9840" y="660" width="60" height="60"/>
+  <object id="386" x="9900" y="600" width="60" height="120"/>
+  <object id="387" x="9960" y="600" width="60" height="120"/>
+  <object id="388" x="10140" y="600" width="60" height="120"/>
+  <object id="389" x="10200" y="600" width="60" height="120"/>
+  <object id="390" x="10260" y="600" width="60" height="120"/>
+  <object id="391" x="10320" y="600" width="60" height="120"/>
+  <object id="392" x="10500" y="600" width="60" height="60"/>
+  <object id="393" x="10560" y="600" width="60" height="120"/>
+  <object id="394" x="10620" y="600" width="60" height="120"/>
+  <object id="395" x="10680" y="600" width="60" height="120"/>
+  <object id="396" x="10860" y="600" width="60" height="120"/>
+  <object id="397" x="10920" y="600" width="60" height="120"/>
+  <object id="404" x="4800" y="480" width="60" height="120"/>
+ </objectgroup>
+ <objectgroup name="triggers">
+  <object id="222" name="completed" x="11820" y="480">
+   <polyline points="0,0 0,-540"/>
+  </object>
+  <object id="225" x="0" y="900">
+   <polyline points="0,0 11940,0"/>
+  </object>
+ </objectgroup>
+</map>
